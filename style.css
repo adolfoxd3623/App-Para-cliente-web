@@ -1,0 +1,62 @@
+/* Estilo sencillo para el formulario de clientes. */
+body {
+  margin: 0;
+  padding: 30px;
+  background: #f1f4f6;
+  color: #243746;
+  font-family: Arial, sans-serif;
+}
+
+.formulario {
+  max-width: 420px;
+  margin: 30px auto;
+  padding: 25px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px #0002;
+}
+
+h1 {
+  margin-top: 0;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin: 13px 0 5px;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #b9c6ce;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 18px;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 5px;
+  background: #087f80;
+  color: white;
+  cursor: pointer;
+}
+
+.limpiar {
+  background: #697984;
+}
+
+#mensaje {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.error {
+  color: #b42318;
+}
+
+.exito {
+  color: #08715f;
+}
